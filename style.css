@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+}
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(35deg,black,rgb(57, 61, 57) );
+}
+.calculator{
+    border:3 px solid #717377;
+    padding:15px;
+    border-radius: 10px;
+    background: transparent;
+    box-shadow: 1px 4px 20px aqua;
+    margin-top: 70px;
+    margin-bottom: 90px;
+}
+input{
+    width: 100%;
+    border: none;
+    padding:20px;
+    margin:10px ;
+    box-shadow: 1px 4px 20px aqua;
+    font-size: 40px;
+    text-align: right;
+    cursor: pointer;
+    background: transparent;
+    color: white;
+    border-radius: 10%;
+    margin: 10px;
+
+}
+input :placeholder{
+    color: white;
+
+}
+button{
+    border:none;
+    width: 70px;
+    height: 70px;
+    margin: 27px;
+    border-radius: 35%;
+    color: white;
+    font-size: 30px;
+    background: transparent;
+    box-shadow: -10px -10px 17px black;
+    cursor: pointer;
+
+}
+.equal{
+    background-color: #f09d04;
+    
+}
+.operator{
+    color:rgb(41, 238, 41);
+}
